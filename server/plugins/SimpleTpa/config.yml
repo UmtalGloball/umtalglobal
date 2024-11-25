@@ -19,84 +19,84 @@ enable-teleport-logging: false
 disable-prefix: false
 prefix: "&c[&6SimpleTpa&c]"
 
-#Messages:
-# TO DISABLE A MESSAGE - SET IT TO - NONE
-# EXAMPLE:
+#MESAJLAR:
+# BİR MESAJI DEVRE DIŞI BIRAKMAK İÇİN - NONE OLARAK AYARLAYIN
+# ÖRNEK:
 # Console-Isnt-Player: "none"
-Console-Isnt-Player: "&6Console can't use &cSimpleTpa&6!"
-Disabled-World-Message: "&6You can't use &cSimpleTpa &6in this World!"
-Teleport-Message: "&6You will be teleported in &c%time% &6seconds!"
-Teleport-Message-Back-To-Player: "&6You &caccepted &6the teleport request!"
-Player-Is-Null: "&6The player is not &conline&6!"
-Player-Doesnt-Have-Back-Point: "&6The player doesn't have any back locations!"
-Player-Doesnt-Have-Back-Point-1: "&6You don't have any back locations!"
-Cooldown-Message: "&6You can't use that command for %time% seconds yet!"
-Death-Message: "&6To teleport to your death location use &c/back"
-Teleport-Message-Back-To-Sender-TPHEREALL: "&6Sending a teleport here request to &ceveryone&6!"
-No-Permission-Message: "&6You don't have permission for this command!"
-TpaToggle-Deactivated-Player-2: "&c%player% &6disabled the teleportation to you!"
-TpaToggle-Activated-Player-2: "&c%player% &6enabled the teleportation to you!"
-TpaToggle-Deactivated-Player: "&6You &cdisabled&6 the teleportation for &c%player%&6."
-TpaToggle-Activated-Player: "&6You &cenabled&6 the teleportation for &c%player%&6."
-TpaToggle-Deactivated: "&6You &cdisabled&6 the teleportation to you."
-TpaToggle-Activated: "&6You &cenabled&6 the teleportation to you."
-TpaToggled-Player-Message: "&6The player has &cdisabled &6the teleportation to him!"
-Player-Is-Player: "&6You can't teleport to &cyourself&6!"
-Already-A-TP-Request: "&6You already have &csent &6a teleport request! If you want to cancel it &c/tpcancel player "
-Tpa-Usage-Message: "&6Please use: &c/tpa (player)"
-Timed-Out-Message: "&6Your &cteleport request&6 has timed out!"
-Sending-Teleport-Request: "&6Sending a teleport request to &c%player%&6. If you want to cancel it &c/tpcancel player "
-Accept-Message: "&6To accept the teleport request, type &c/tpaccept"
-Deny-Message: "&6To deny the teleport request, type &c/tpdeny"
-Sent-Request-On-You: "&c%player% &6has sent you a teleport request!"
-Timed-Out-Here-Message: "&6Your teleport here request has &ctimed out!"
-Sending-Teleport-Here-Request: "&6Sending a teleport here request to &c%player%&6. If you want to cancel it &c/tpcancel player"
-Sent-Here-Request-On-You: "&c%player% &6has sent you a teleport here request!"
-Already-A-TPHere-Request: "&6You already have &csent &6a teleport here request! If you want to cancel it &c/tpcancel player"
-Tpa-Here-Usage-Message: "&6Please use: &c/tpahere (player)"
-No-Teleport-Requests: "&6You don't have any teleport requests!"
-Invalid-Player: "&6It seems the player who was teleporting to you has left the server!"
-Teleport-Message-Back-To-Sender: "&c%player% &6has accepted your teleportation request."
-Teleported-Message: "&6Teleported!"
-Move-Cancel-Message: "&6You have moved and the teleport request has been removed!"
-Rejected-Sender: "&6The player has rejected your &crequest&6!"
-Rejected-Message: "&6You have rejected the &crequest&6!"
-Player-Is-In-Disabled-World: "&6The player you wanted to teleport to is in &cdisabled world&6!"
-Tpcancel-Usage-Message: "&6Please use: &c/tpcancel (player)"
-Error-Cancelling-Request: "&6You can't cancel your own &crequest!"
-Request-Cancelled: "&6You successfully cancelled the &cteleportation request&6!"
-Death-Message-Coords: "&6Your death location is: &c%coords%&6!"
-Time-Left: "&6You have &c%seconds% &6seconds to accept or deny the request"
-Damaged-Cancel-Message: "&6You were damaged and the teleport request has been removed!"
-Different-Gamemode: "&6You can't use any teleportation commands, because you are in &cSPECTATOR &6mode!"
-World-Doesnt-Exists-Or-Unloaded: "&6The world you're trying to teleport to is either unloaded or doesn't exist!"
-## BUTTONS
-#Here you can find the colors https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/ChatColor.html
+Console-Isnt-Player: "&6Konsol &cSimpleTpa&6'yi kullanamaz!"
+Disabled-World-Message: "&6Bu dünyada &cSimpleTpa &6kullanamazsınız!"
+Teleport-Message: "&6%time% &6saniye içinde teleport edileceksiniz!"
+Teleport-Message-Back-To-Player: "&6Teleport isteğini &ckabullerdiniz&6!"
+Player-Is-Null: "&6Oyuncu çevrimiçi değil &6!"
+Player-Doesnt-Have-Back-Point: "&6Oyuncunun geri noktası yok!"
+Player-Doesnt-Have-Back-Point-1: "&6Geri noktalarınız yok!"
+Cooldown-Message: "&6Bu komutu %time% saniye daha kullanamazsınız!"
+Death-Message: "&6Ölüm noktanıza teleport için &c/back &6kullanın."
+Teleport-Message-Back-To-Sender-TPHEREALL: "&6Herkese teleport isteği gönderiliyor &ceveryone&6!"
+No-Permission-Message: "&6Bu komut için izniniz yok!"
+TpaToggle-Deactivated-Player-2: "&c%player% &6sana teleportasyonu devre dışı bıraktı!"
+TpaToggle-Activated-Player-2: "&c%player% &6sana teleportasyonu etkinleştirdi!"
+TpaToggle-Deactivated-Player: "&6Teleportasyonu &c%player%&6 için devre dışı bıraktınız."
+TpaToggle-Activated-Player: "&6Teleportasyonu &c%player%&6 için etkinleştirdiniz."
+TpaToggle-Deactivated: "&6Teleportasyonu devre dışı bıraktınız."
+TpaToggle-Activated: "&6Teleportasyonu etkinleştirdiniz."
+TpaToggled-Player-Message: "&6Oyuncu teleportasyonu &cdevre dışı bıraktı&6!"
+Player-Is-Player: "&6Kendinize teleport edemezsiniz&6!"
+Already-A-TP-Request: "&6Zaten bir teleport isteği &csundunuz! İptal etmek için &c/tpcancel player "
+Tpa-Usage-Message: "&6Lütfen kullanın: &c/tpa (oyuncu)"
+Timed-Out-Message: "&6Teleport isteğinizin süresi doldu!"
+Sending-Teleport-Request: "&6Teleport isteği gönderiliyor &c%player%&6. İptal etmek için &c/tpcancel player "
+Accept-Message: "&6Teleport isteğini kabul etmek için &c/tpaccept &6yazın."
+Deny-Message: "&6Teleport isteğini reddetmek için &c/tpdeny &6yazın."
+Sent-Request-On-You: "&c%player% &6sana bir teleport isteği gönderdi!"
+Timed-Out-Here-Message: "&6Teleport isteğinizin süresi doldu!"
+Sending-Teleport-Here-Request: "&6Teleport isteği gönderiliyor &c%player%&6 için. İptal etmek için &c/tpcancel player"
+Sent-Here-Request-On-You: "&c%player% &6sana bir teleport isteği gönderdi!"
+Already-A-TPHere-Request: "&6Zaten bir teleport isteği &csundunuz! İptal etmek için &c/tpcancel player"
+Tpa-Here-Usage-Message: "&6Lütfen kullanın: &c/tpahere (oyuncu)"
+No-Teleport-Requests: "&6Hiçbir teleport isteğiniz yok!"
+Invalid-Player: "&6Teleport isteğini gönderen oyuncu sunucudan ayrılmış gibi görünüyor!"
+Teleport-Message-Back-To-Sender: "&c%player% &6teleportasyon isteğinizi kabul etti."
+Teleported-Message: "&6Teleport edildiniz!"
+Move-Cancel-Message: "&6Hareket ettiniz ve teleport isteği iptal edildi!"
+Rejected-Sender: "&6Oyuncu isteğinizi &creddetti&6!"
+Rejected-Message: "&6İsteğinizi &creddettiniz&6!"
+Player-Is-In-Disabled-World: "&6Teleport etmek istediğiniz oyuncu &cdevre dışı bırakılmış dünyada&6!"
+Tpcancel-Usage-Message: "&6Lütfen kullanın: &c/tpcancel (oyuncu)"
+Error-Cancelling-Request: "&6Kendi isteğinizi iptal edemezsiniz!"
+Request-Cancelled: "&6Teleportasyon isteği başarıyla iptal edildi&6!"
+Death-Message-Coords: "&6Ölüm lokasyonunuz: &c%coords%&6!"
+Time-Left: "&6İsteği kabul etmek veya reddetmek için &c%seconds% &6saniyeniz var."
+Damaged-Cancel-Message: "&6Zarar gördünüz ve teleport isteği iptal edildi!"
+Different-Gamemode: "&6SPECTATOR modunda olduğunuz için herhangi bir teleportasyon komutunu kullanamazsınız!"
+World-Doesnt-Exists-Or-Unloaded: "&6Teleport etmek istediğiniz dünya ya yüklenmemiş ya da mevcut değil!"
 
-# PARTICLES AND SOUNDS
-#Select the name for the sound from here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+## DÜĞMELER
+# Burada renkleri bulabilirsiniz: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/ChatColor.html
+
+# PARÇALAR VE SESLER
+# Sesin adını buradan seçin: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
 Sound-Name: "ENTITY_EXPERIENCE_ORB_PICKUP"
-#Select the name for the particle from here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
+# Partikülün adını buradan seçin: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Particle.html
 Particle-Name: "EXPLOSION_NORMAL"
 
-#Accept Button Properties
-Accept-Button: "ACCEPT"
-Accept-Button-Color: "RED"
+# Kabul Butonu Özellikleri
+Accept-Button: "KABUL ET"
+Accept-Button-Color: "KIRMIZI"
 Accept-Button-Set-Bold: true
-Accept-Button-Description: "&6Click here to &cACCEPT &6the tp request!"
+Accept-Button-Description: "&6Teleport isteğini &cKABUL ETMEK İÇİN &6buraya tıklayın!"
 
-#Middle Button Properties
+# Orta Buton Özellikleri
 Middle-Button: " | "
-Middle-Button-Color: "GRAY"
+Middle-Button-Color: "GRİ"
 Middle-Button-Set-Bold: true
-Middle-Button-Description: "&7 <- Choose between -> "
+Middle-Button-Description: "&7 <- Seçiminizi yapın -> "
 
-#Deny Button Properties
-Deny-Button: "DENY"
-Deny-Button-Color: "RED"
+# Reddet Butonu Özellikleri
+Deny-Button: "REDDET"
+Deny-Button-Color: "KIRMIZI"
 Deny-Button-Set-Bold: true
-Deny-Button-Description: "&6Click here to &cDENY &6the tp request!"
-
+Deny-Button-Description: "&6Teleport isteğini &cREDDETMEK İÇİN &6buraya tıklayın!"
 # If you want to disable simpletpa for some worlds, then you can add them by adding - 'NameOfTheWorld'
 #Disabled Worlds:
 disabled-worlds:
